@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.romb {
+    opacity: .5;
+    left: 100px;
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    background-color: black;
+    border-radius: 0px 0px 30px 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.romb:hover {
+    box-shadow: 0px 0px 5px 5px blue;
+    transition: 1s;
+    opacity: .7;
+}
+
+.romb img {
+    top: 3.5px;
+    left: 7.5px;
+    padding: 0px auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container ul {
+    position: absolute;
+    right: 320px;
+}
+
+.container ul a {
+    text-align: center;
+    top: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    margin-left: 60px;
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    border-radius: 5px;
+
+}
+
+.container ul a:hover {
+    color: black;
+    transition: 0.5s;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+}
+
+
+.logotip {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    height: 50px;
+}
+
+.logo {
+    position: relative;
+    top: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+    margin-left: 40px;
+    opacity: .3;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    opacity: .7;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 10px blue;
+}
+
+.logo img {
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.main {
+    bottom: 400px;
+    position: absolute;
+    left: 100px;
+    width: 500px;
+    height: 100px;
+}
+
+.main button {
+    background-color: rebeccapurple;
+    height: 40px;
+    width: 170px;
+    outline: none;
+    border: none;
+    color: red;
+    border-radius: 20px;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.main b {
+
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    ;
+    font-size: 70px;
+    color: white;
+    width: 200px;
+    height: 70px;
+}
+
+.span {
+    color: red;
+    text-decoration: underline;
+}
+
+.line {
+    top: 210px;
+    position: absolute;
+    width: 3px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 15px;
+    color: white;
+    top: 195px;
+    position: absolute;
+    left: 10px;
+}
+
+.downmain {
+    width: 490px;
+    height: 70px;
+    left: 100px;
+    bottom: 160px;
+    position: absolute;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn1 {
+    cursor: pointer;
+    top: 5px;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to left, pink, red, blue);
+    transition: 1s;
+    text-shadow: 1px 1px 1px black,
+        2px 2px 1px black;
+}
+
+.btn1 span {
+    font-weight: 700;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px white,
+        2px 2px 1px black;
+}
+
+.btn1:hover {
+    box-shadow: 0px 0px 1px 1px blue;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    transition: 1s;
+    background-image: linear-gradient(to right, pink, red, blue);
+}
+
+.border {
+    top: 10px;
+    left: 180px;
+    position: absolute;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.border img {
+    width: 30px;
+    height: 30px;
+}
+
+.p {
+    top: -2px;
+    font-size: 12px;
+    left: 220px;
+    color: green;
+    position: absolute;
+    cursor: pointer;
+}
+
+.pa {
+    top: 10.5px;
+    font-size: 14px;
+    left: 220px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.box1 img {
+    left: 75px;
+    position: absolute;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.box1 p {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    top: 16px;
+    left: 120px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.box1 p:hover {
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+    transition: 1s;
+    box-shadow: 0px 0px 2px 2px blue;
+}
+
+.box2 img {
+    left: 350px;
+    position: absolute;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.box2 p {
+    font-weight: 900;
+    text-align: center;
+    top: 16px;
+    right: 620px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 1s;
+
+}
+
+.box2 p:hover {
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+    transition: 1s;
+    box-shadow: 0px 0px 2px 2px blue;
+}
+
+.box3 img {
+    right: 740px;
+    position: absolute;
+    top: 22px;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.box3 p {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    top: 16px;
+    left: 380px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.box3 p:hover {
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+    transition: 1s;
+    box-shadow: 0px 0px 2px 2px blue;
+}
+
+.box4 img {
+    right: 495px;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.box4 p {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    top: 16px;
+    right: 360px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.box4 p:hover {
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+    transition: 1s;
+    box-shadow: 0px 0px 2px 2px blue;
+}
+
+.box5 img {
+    right: 200px;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.box5 p {
+    font-weight: 900;
+    text-align: center;
+    top: 16px;
+    right: 70px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px red,
+        2px 2px 1px red;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.box5 p:hover {
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px blue,
+        2px 2px 1px blue;
+    transition: 1s;
+    box-shadow: 0px 0px 2px 2px blue;
+}
